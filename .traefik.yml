@@ -1,7 +1,7 @@
 displayName: Rename Headers
 summary: Renames the HTTP response headers.
 type: middleware
-import: gitlab.com/traefik-custom-headers-plugin/traefik-custom-headers-plugin
+import: github.com/AdamEszes/traefik-custom-headers-plugin
 testData:
   renameData:
     - existingHeaderName: "Customheader"

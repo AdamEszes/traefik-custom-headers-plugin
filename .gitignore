@@ -25,9 +25,6 @@
 # Go generated files
 /.generated/
 
-# Go vendor directory
-/vendor/
-
 
 # IDE specific files
 .idea/
