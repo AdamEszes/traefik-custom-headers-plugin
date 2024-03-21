@@ -1,4 +1,4 @@
-displayName: Rename Headers
+displayName: Custom Headers
 summary: Renames the HTTP response headers.
 type: middleware
 import: github.com/AdamEszes/traefik-custom-headers-plugin

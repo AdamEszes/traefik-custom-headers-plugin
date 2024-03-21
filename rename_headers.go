@@ -1,4 +1,4 @@
-package traefik_plugin_rename_headers
+package traefik_custom_headers_plugin
 
 import (
 	"bufio"
@@ -31,6 +31,7 @@ type renameHeaders struct {
 	renames []renameData
 }
 
+// New creates a new Custom Header plugin.
 func New(_ context.Context, next http.Handler, config *Config, name string) (http.Handler, error) {
 	return &renameHeaders{
 		name:    name,
