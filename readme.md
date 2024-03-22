@@ -38,8 +38,7 @@ http:
   middlewares:
     renameHeaders:
       plugin:
-        renameHeaders:
-          renames:
-            - oldHeader: "Custom_id"
-              newHeader: "custom_id"
+        renameData:
+          - existingHeaderName: "Customheader"
+          newHeaderName: "customheader"
 ```
